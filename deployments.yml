@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: myweb
-        image: bhagyashreeameyawagh/batch040057weekend-10:latest   # ✅ CHANGED
+        image: bhagyashreeameyawagh/batch040057weekend-2:latest   # ✅ CHANGED
         imagePullPolicy: Always                     # ✅ ADDED
         ports:
         - containerPort: 8080
